@@ -2,20 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: 罗灿辉 | Canhui Luo # the website title (if blank, full name will be used instead)
+first_name: 罗灿辉
+middle_name:
+last_name:
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  欢迎通过 QQ 2240074647、邮箱 2240074647@qq.com 或 GitHub 联系我；当前学术邮箱为 luocanhui@hust.edu.cn（毕业后可能失效）。
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  罗灿辉，华中科技大学计算机科学与技术学院博士研究生，主要研究组合优化、智能启发式算法、路径规划、资源调度与工业智能制造优化。
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+  基于 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 与 <a href="https://github.com/alshedivat/al-folio">al-folio</a> 构建，
+  托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
+keywords: 个人简介，组合优化, 启发式算法, 路径规划, 调度优化, 资源分配，EDA布局与布线 # add your own keywords or leave empty
+lang: zh # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://lxily.github.io # the base hostname & protocol for your site
