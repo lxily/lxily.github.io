@@ -440,16 +440,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-个人主页已上线-后续会逐步整理研究方向-项目经历与学术成果",
+          title: '个人主页已上线，后续会逐步整理研究方向、项目经历与学术成果。',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-已添加-google-scholar-与-orcid-信息-并将-github-邮箱等联系方式同步到首页",
+          title: '已添加 Google Scholar 与 ORCID 信息，并将 GitHub、邮箱等联系方式同步到首页。',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-研究内容将围绕组合优化-智能启发式算法-路径规划-资源调度与工业智能制造优化持续更新",
+          title: '研究内容将围绕组合优化、智能启发式算法、路径规划、资源调度与工业智能制造优化持续更新。',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
