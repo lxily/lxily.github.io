@@ -7,7 +7,8 @@ first_name: 罗灿辉
 middle_name:
 last_name:
 contact_note: >
-  欢迎通过 QQ 2240074647、邮箱 2240074647@qq.com 或 GitHub 联系我；当前学术邮箱为 luocanhui@hust.edu.cn（毕业后可能失效）。
+  欢迎通过 QQ 2240074647、邮箱 <a href="mailto:2240074647@qq.com">2240074647@qq.com</a> 或 GitHub 联系我；
+  当前学术邮箱为 <a href="mailto:luocanhui@hust.edu.cn">luocanhui@hust.edu.cn</a>（毕业后可能失效）。
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   罗灿辉，华中科技大学计算机科学与技术学院博士研究生，主要研究组合优化、智能启发式算法、路径规划、资源调度与工业智能制造优化。
 footer_text: >
