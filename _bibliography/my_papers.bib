@@ -1,0 +1,173 @@
+---
+---
+
+@Comment{
+al-folio 支持很多额外字段，不只是标准 BibTeX。常用的是这些：
+inproceedings{luo2025example,
+  title={Example Paper Title},
+  author={Luo, Canhui and Zhang, Qingyun and Su, Zhouxing and L{\"u}, Zhipeng},
+  booktitle={Proceedings of Example Conference},
+  year={2025},
+
+  abbr={AAAI},
+  selected={true},
+  bibtex_show={true},
+  abstract={这里可以写摘要，页面上会出现 Abs 按钮。},
+  doi={10.xxxx/example},
+  arxiv={2501.00000},
+  pdf={example-paper.pdf},
+  code={https://github.com/lxily/example},
+  website={https://example.com},
+  slides={example-slides.pdf},
+  poster={example-poster.pdf},
+  preview={example-preview.png},
+  award={Best Paper Award},
+  award_name={Award}
+}
+
+selected={true}：出现在首页精选发表物
+bibtex_show={true}：显示 Bib 按钮
+abstract={...}：显示 Abs 按钮
+doi={...}：显示 DOI 按钮
+arxiv={...}：显示 arXiv 按钮
+pdf={xxx.pdf}：显示 PDF 按钮，文件放到 assets/pdf/xxx.pdf
+slides={xxx.pdf}：显示 Slides 按钮，文件也放到 assets/pdf/
+poster={xxx.pdf}：显示 Poster 按钮，文件也放到 assets/pdf/
+code={https://...}：显示 Code 按钮
+website={https://...}：显示 Website 按钮
+preview={xxx.png}：显示论文缩略图，文件放到 assets/img/publication_preview/xxx.png
+abbr={AAAI}：显示会议/期刊缩写徽章
+award={...}：显示获奖信息
+award_name={...}：控制奖项按钮文字
+}
+
+@article{luo2026reduction,
+  title={A reduction framework with an improved beam search algorithm for non-slicing VLSI floorplanning},
+  author={Luo, Canhui and Zhao, Yaozhong and Li, Yan and Su, Zhouxing and Zhang, Qingyun and Ding, Junwen and L{\"u}, Zhipeng},
+  journal={The Journal of Supercomputing},
+  volume={82},
+  number={7},
+  pages={402},
+  year={2026},
+  publisher={Springer},
+  selected={true},
+  bibtex_show={true},
+  pdf={publications/TJSC-Floorplanning.pdf},
+  preview={TJSC-Floorplanning.jpg},
+  abbr= {TJSC}
+}
+
+@inproceedings{chen2026adaptive,
+  title={An Adaptive Configuration-Aware Simulated Annealing for the Maximally Diverse Grouping Problem},
+  author={Chen, Baiyu and Luo, Canhui and Ding, Junwen and Zhang, Qingyun and Su, Zhouxing and L{\"u}, Zhipeng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={43},
+  pages={36802--36810},
+  year={2026},
+  selected={false},
+  bibtex_show={true},
+  pdf={publications/AAAI26-ACSA.pdf},
+  abbr= {AAAI}
+}
+
+@inproceedings{zhang2025ns4s,
+  title={NS4S: neighborhood search for scheduling problems via large language models},
+  author={Zhang, Junjie and Luo, Canhui and Su, Zhouxing and Zhang, Qingyun and L{\"u}, Zhipeng and Ding, Junwen and Jin, Yan},
+  booktitle={Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence},
+  pages={8687--8695},
+  year={2025},
+  selected={false},
+  bibtex_show={true},
+  pdf={publications/IJCAI25-NS4S.pdf},
+  abbr= {IJCAI}
+}
+
+@inproceedings{chen2025elite,
+  title={An elite-guided weighted simulated annealing algorithm for the clique partitioning problem},
+  author={Chen, Baiyu and Ding, Junwen and Luo, Canhui and Zhang, Qingyun and Su, Zhouxing and L{\"u}, Zhipeng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={25},
+  pages={26904--26912},
+  year={2025},
+  selected={false},
+  bibtex_show={true},
+  pdf={publications/AAAI25-EWSA.pdf},
+  abbr= {AAAI}
+}
+
+@inproceedings{luo2025pace,
+  title={PACE Solver Description: Weighting-Based Local Search Heuristic for the Hitting Set Problem},
+  author={Luo, Canhui and Zhang, Qingyun and Su, Zhouxing and L{\"u}, Zhipeng},
+  booktitle={20th International Symposium on Parameterized and Exact Computation (IPEC 2025)},
+  pages={40--1},
+  year={2025},
+  organization={Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik},
+  selected={false},
+  bibtex_show={true},
+  pdf={publications/PACE25-Solver.pdf},
+  preview={PACE25-Challenge.png},
+  code={https://github.com/lxily/PACE2025.DS-HS},
+  website={https://pacechallenge.org/2025/},
+  abbr= {IPEC}
+}
+
+@inproceedings{luo2024general,
+  title={A General Heuristic Approach for Maximum Polygon Packing (CG Challenge)},
+  author={Luo, Canhui and Su, Zhouxing and L{\"u}, Zhipeng},
+  booktitle={40th International Symposium on Computational Geometry (SoCG 2024)},
+  pages={86--1},
+  year={2024},
+  organization={Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik},
+  selected={false},
+  bibtex_show={true},
+  pdf={publications/SoCG24-CGChallenge.pdf},
+  preview={CGSHOP2024-Challenge.png},
+  website={https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2024},
+  abbr= {SOCG}
+}
+
+@article{luo2023ms,
+  title={MS-CLS: an effective partitioning and placement metaheuristic for wafer-scale physics modeling},
+  author={Luo, Canhui and Su, Zhouxing and L{\"u}, Zhipeng},
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence},
+  volume={8},
+  number={2},
+  pages={1194--1208},
+  year={2023},
+  publisher={IEEE},
+  selected={true},
+  bibtex_show={true},
+  pdf={publications/TETCI-MS-CLS.pdf},
+  preview={TETCI-MS-CLS.jpg},
+  abbr= {TETCI}
+}
+
+@article{chen2022robust,
+  title={Robust multi-agent reinforcement learning for noisy environments},
+  author={Chen, Xinning and Liu, Xuan and Luo, Canhui and Yin, Jiangjin},
+  journal={Peer-to-Peer Networking and Applications},
+  volume={15},
+  number={2},
+  pages={1045--1056},
+  year={2022},
+  publisher={Springer},
+  selected={false},
+  bibtex_show={true},
+  pdf={publications/P2PNA2022-MAFTRL.pdf},
+  abbr= {P2PNA}
+}
+
+@inproceedings{luo2020multi,
+  title={Multi-agent fault-tolerant reinforcement learning with noisy environments},
+  author={Luo, Canhui and Liu, Xuan and Chen, Xinning and Luo, Juan},
+  booktitle={2020 IEEE 26th International Conference on Parallel and Distributed Systems (ICPADS)},
+  pages={164--171},
+  year={2020},
+  organization={IEEE},
+  selected={false},
+  bibtex_show={true},
+  pdf={publications/ICPADS20-MAFTRL.pdf},
+  abbr= {ICPADS}
+}

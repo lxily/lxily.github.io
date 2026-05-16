@@ -6,13 +6,10 @@ subtitle: 华中科技大学计算机科学与技术学院博士研究生
 
 profile:
   align: right
-  image:
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>QQ：2240074647</p>
-    <p>邮箱：<a href="mailto:2240074647@qq.com">2240074647@qq.com</a></p>
-    <p>学术邮箱：<a href="mailto:luocanhui@hust.edu.cn">luocanhui@hust.edu.cn</a><br>毕业后可能失效</p>
-    <p>GitHub：<a href="https://github.com/lxily" target="_blank" rel="noopener noreferrer">lxily</a></p>
+    <p> 👆 2026年于烟台蓬莱 </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

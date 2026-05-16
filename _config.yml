@@ -8,7 +8,7 @@ middle_name:
 last_name:
 contact_note: >
   欢迎通过 QQ 2240074647、邮箱 <a href="mailto:2240074647@qq.com">2240074647@qq.com</a> 或 GitHub 联系我；
-  当前学术邮箱为 <a href="mailto:luocanhui@hust.edu.cn">luocanhui@hust.edu.cn</a>（毕业后可能失效）。
+  当前学术邮箱为 <a href="mailto:luocanhui@hust.edu.cn">luocanhui@hust.edu.cn</a>。
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   罗灿辉，华中科技大学计算机科学与技术学院博士研究生，主要研究组合优化、智能启发式算法、路径规划、资源调度与工业智能制造优化。
 footer_text: >
@@ -279,14 +279,14 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Luo]
+  first_name: [Canhui]
 
   style: apa
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: my_papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
