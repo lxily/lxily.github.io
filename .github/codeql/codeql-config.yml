@@ -1,0 +1,7 @@
+name: CodeQL config
+
+# Distill support is vendored from the upstream al-folio template. These files
+# are distributed third-party browser bundles, so CodeQL findings here are not
+# actionable for this site's custom code.
+paths-ignore:
+  - assets/js/distillpub/**
