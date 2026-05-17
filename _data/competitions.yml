@@ -1,0 +1,107 @@
+- title: 2025 中国研究生创“芯”大赛·EDA精英挑战赛
+  abbr: EDA Elite Challenge
+  result: 全国一等奖
+  role: 唯一作者
+  authors:
+    - 罗灿辉
+    - 吕志鹏
+    - 苏宙行
+  preview: EDAChallenge25.jpg
+  context: 命题企业 | 思尔芯（支持重新组网的多 FPGA 系统布线）
+  date: 2025.07 - 2025.11
+  selected: true
+  summary: 提出两阶段启发式优化算法，结合负载均衡组网、候选路径预生成、随机顺序迭代与弹动池优化实现全局布线搜索；在公开测试集上高效降低整体通信时延，多个复杂案例取得最优性能，获全国一等奖及思尔芯企业特别奖。
+
+- title: PACE 2025 最小支配集与碰撞集优化竞赛
+  abbr: PACE
+  result: 全球第一名
+  role: 唯一作者
+  authors:
+    - 罗灿辉
+    - 张庆雲
+    - 苏宙行
+    - 吕志鹏
+  preview: PACEChallenge25.jpg
+  context: 工业场景 | 设施选址、资源分配、故障检测
+  date: 2025.02 - 2025.06
+  selected: true
+  summary: 提出基于元素加权的禁忌搜索算法，自适应赋予难被覆盖元素更高的权重引导搜索的集合选择；在超大规模测试实例集上实现高效求解并显著减少资源消耗，获碰撞集启发式优化赛道全球第一名。
+
+- title: 2024 中国研究生创“芯”大赛·EDA 精英挑战赛
+  abbr: EDA Elite Challenge
+  result: 全国一等奖
+  role: 唯一作者
+  authors:
+    - 罗灿辉
+    - 吕志鹏
+    - 苏宙行
+  preview: EDAChallenge24.jpg
+  context: 命题企业 | 安路科技（面向路径优化的详细布局）
+  date: 2024.07 - 2024.11
+  selected: true
+  summary: 提出多级邻域快速评估策略与迭代局部搜索算法，设计目标驱动的线网优化算子逃离搜索局部最优；在所有工业级测试实例上获得时延与能耗综合指标最优，整体表现较其余队伍具有 50% 以上性能优势，并获安路科技企业特别奖。
+
+- title: CG:SHOP 2024 最大多边形装箱优化竞赛
+  abbr: CG:SHOP
+  result: 全球第二名
+  role: 第一作者
+  authors:
+    - 罗灿辉
+    - 裴文铖
+    - 白晨煜
+    - 王睿智
+    - 邹宇豪
+    - 苏宙行
+    - 吕志鹏
+  preview: CGSHOP24.jpg
+  context: 工业场景 | 不规则物品切割、装箱套料优化
+  date: 2023.09 - 2024.01
+  selected: false
+  summary: 底层实现基于临界多边形与拟牛顿迭代法的重叠消除算法，上层设计启发式移动与交换邻域迭代改进；在 180 个大规模测试用例上求得 58 个最佳解，从来自多个国家的十余支参赛队伍中获得全球第二名。
+
+- title: 2023 中国研究生创“芯”大赛·EDA 精英挑战赛
+  abbr: EDA Elite Challenge
+  result: 全国二等奖
+  role: 第二作者
+  authors:
+    - 王宇轩
+    - 罗灿辉
+    - 吕志鹏
+    - 苏宙行
+  preview: EDAChallenge23.jpg
+  context: 命题企业 | 概伦电子（标准单元自动化布局优化）
+  date: 2023.07 - 2023.11
+  selected: false
+  summary: 提出基于旅行商问题的最优路径优化方案，设计集束搜索框架下的多样化布局生成与优化算法；成功生成满足严格设计约束的高质量解决方案，在芯片面积与性能等多个优化目标下实现均衡优化。
+
+- title: ICCAD 2021 布局布线联合优化竞赛
+  abbr: ICCAD
+  result: 全球第一名
+  role: 第一作者
+  authors:
+    - 罗灿辉
+    - 梁镜湖
+    - 谢振轩
+    - 苏宙行
+    - 吕志鹏
+  preview: ICCAD21.jpg
+  context: 命题企业 | Synopsys（复杂约束下的大规模路径规划）
+  date: 2021.03 - 2021.09
+  selected: true
+  summary: 提出引脚距离启发全局布线算法，结合约束松弛与加权修复技术实现复杂约束规则条件下的迭代优化；在所有芯片测试用例上均获得最短全局布线路径长度，相较于给定初始布局布线方案具有 40% 以上的整体布线长度优化。
+
+- title: ISPD 2021 有限元硬件加速器划分布局优化竞赛
+  abbr: ISPD
+  result: 全球第三名
+  role: 第一作者
+  authors:
+    - 罗灿辉
+    - 苏宙行
+    - 吕志鹏
+    - 张庆雲
+    - 高岩
+  preview: ISPD21.jpg
+  context: 命题企业 | Cerebras（晶圆级硬件资源划分优化）
+  date: 2020.12 - 2021.03
+  selected: false
+  summary: 提出空间合并分裂迭代的有限元建模优化，提出空间位置感知的递归切分布局降低硬件通信线长；获得最佳硬件通信代价以及整体评估全球第三名。

@@ -62,9 +62,10 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    text-align: center;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
     }
   }
@@ -115,6 +116,46 @@ ul.task-list input[type="checkbox"] {
   background-color: transparent;
   border: none;
   color: var(--global-text-color);
+}
+
+.competition-title {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.competition-date {
+  flex-shrink: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.publications > .row {
+  margin-bottom: 1rem;
+
+  .abbr {
+    margin-bottom: 0.5rem;
+
+    abbr {
+      display: inline-block;
+      background-color: var(--global-theme-color);
+      color: var(--global-card-bg-color) !important;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .competition-title {
+    display: block;
+  }
+
+  .competition-date {
+    display: block;
+    margin-top: 0.15rem;
+  }
 }
 
 .date-column {

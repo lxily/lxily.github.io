@@ -1,13 +1,14 @@
 ---
 layout: page
-title: submenus
+title: 更多
 nav: true
-nav_order: 8
+nav_order: 6
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: 代码仓库
+    permalink: /repositories/
+  - title: 教学
+    permalink: /teaching/
+  - title: 成员
+    permalink: /people/
 ---

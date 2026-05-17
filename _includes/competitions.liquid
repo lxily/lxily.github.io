@@ -1,0 +1,135 @@
+{% assign competitions = site.data.competitions %}
+{% if include.selected_only %}
+  {% assign competitions = competitions | where: 'selected', true %}
+{% endif %}
+{% assign competitions = competitions | sort: 'date' | reverse %}
+
+{% if include.search %}
+  <input id="competition-search" class="search bibsearch-form-input" placeholder="输入关键词筛选竞赛">
+{% endif %}
+
+<div class="publications">
+  {% if competitions and competitions.size > 0 %}
+    {% assign current_year = '' %}
+    {% for entry in competitions %}
+      {% assign entry_year = entry.date | slice: 0, 4 %}
+      {% if include.group_by_year and entry_year != current_year %}
+        <h2 class="bibliography competition-year-heading" data-year="{{ entry_year }}">
+          {{ entry_year }}
+        </h2>
+        {% assign current_year = entry_year %}
+      {% endif %}
+      {% capture author_search_text %}
+        {% for author in entry.authors %}
+          {{ author }}
+        {% endfor %}
+      {% endcapture %}
+      {% capture search_text %}
+        {{ entry.abbr }}
+        {{ entry.title }}
+        {{ entry.result }}
+        {{ entry.date }}
+        {{ author_search_text }}
+        {{ entry.context }}
+        {{ entry.summary }}
+      {% endcapture %}
+      <div class="row competition-entry" data-year="{{ entry_year }}" data-search="{{ search_text | strip_html | downcase | escape }}">
+        <div class="col col-sm-2 abbr">
+          {% if entry.abbr %}
+            <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          {% endif %}
+          {% if entry.preview %}
+            {% if entry.preview contains '://' %}
+              <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ entry.title }}">
+            {% else %}
+              {% assign entry_path = entry.preview | prepend: '/assets/img/compitition_preview/' %}
+              {%
+                include figure.liquid
+                loading="eager"
+                path=entry_path
+                sizes = "200px"
+                class="preview z-depth-1 rounded"
+                zoomable=true
+                avoid_scaling=true
+                alt=entry.preview
+              %}
+            {% endif %}
+          {% endif %}
+        </div>
+
+        <div class="col-sm-8">
+          <div class="title competition-title">
+            <span>
+              {{- entry.title -}}
+              {{- entry.result -}}
+            </span>
+            {% if entry.date %}
+              <span class="competition-date">{{ entry.date }}</span>
+            {% endif %}
+          </div>
+          {% if entry.authors %}
+            <div class="author">
+              {%- for author in entry.authors -%}
+                {%- assign author_name = author | strip -%}
+                {%- unless forloop.first -%}, {% endunless -%}
+                {%- if author_name == site.first_name or author_name == '罗灿辉' -%}
+                  <u>{{ author_name }}</u>
+                {%- else -%}
+                  {{ author_name }}
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+          {% endif %}
+          {% if entry.summary %}
+            <div class="periodical">
+              <strong>核心成果：</strong>
+              {{ entry.summary }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+    {% if include.search %}
+      <p id="competition-no-results" class="d-none">没有找到匹配的竞赛获奖信息。</p>
+    {% endif %}
+  {% else %}
+    <p>暂无竞赛获奖信息。</p>
+  {% endif %}
+</div>
+
+{% if include.search %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const input = document.getElementById('competition-search');
+      const entries = Array.from(document.querySelectorAll('.competition-entry'));
+      const headings = Array.from(document.querySelectorAll('.competition-year-heading'));
+      const noResults = document.getElementById('competition-no-results');
+
+      if (!input) return;
+
+      function updateCompetitionList() {
+        const query = input.value.trim().toLowerCase();
+        let visibleCount = 0;
+
+        entries.forEach(function (entry) {
+          const visible = !query || entry.dataset.search.includes(query);
+          entry.classList.toggle('d-none', !visible);
+          if (visible) visibleCount += 1;
+        });
+
+        headings.forEach(function (heading) {
+          const year = heading.dataset.year;
+          const hasVisibleEntry = entries.some(function (entry) {
+            return entry.dataset.year === year && !entry.classList.contains('d-none');
+          });
+          heading.classList.toggle('d-none', !hasVisibleEntry);
+        });
+
+        if (noResults) noResults.classList.toggle('d-none', visibleCount > 0);
+      }
+
+      input.addEventListener('input', updateCompetitionList);
+      updateCompetitionList();
+    });
+  </script>
+{% endif %}
