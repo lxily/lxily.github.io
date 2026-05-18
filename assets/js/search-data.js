@@ -465,6 +465,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-n-n-puzzle-n-数码问题",
+          title: 'N*N Puzzle / N 数码问题',
+          description: "一个用于演示 N*N 滑块拼图构造式还原算法的 C++ 玩具项目与网页小游戏。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nnpuzzle/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
