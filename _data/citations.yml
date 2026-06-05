@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-22'
+  last_updated: '2026-06-05'
 papers:
   L5R-NKAAAAAJ:2osOgNQ5qMEC:
     citations: 5
     title: 'MS-CLS: an effective partitioning and placement metaheuristic for wafer-scale physics modeling'
     year: '2023'
   L5R-NKAAAAAJ:9yKSN-GCB0IC:
-    citations: 15
+    citations: 14
     title: Robust multi-agent reinforcement learning for noisy environments
     year: '2022'
   L5R-NKAAAAAJ:IjCSPb-OGe4C:
