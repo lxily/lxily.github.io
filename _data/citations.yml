@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-07-03'
 papers:
   L5R-NKAAAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -23,7 +23,7 @@ papers:
     year: '2024'
   L5R-NKAAAAAJ:W7OEmFMy1HYC:
     citations: 0
-    title: An Adaptive Configuration-Aware Simulated Annealing for the Maximally Diverse Grouping Problem
+    title: An adaptive configuration-aware simulated annealing for the maximally diverse grouping problem
     year: '2026'
   L5R-NKAAAAAJ:Y0pCki6q_DkC:
     citations: 3
