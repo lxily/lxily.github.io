@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-08-03'
 papers:
   L5R-NKAAAAAJ:2osOgNQ5qMEC:
     citations: 6
-    title: 'MS-CLS: an effective partitioning and placement metaheuristic for wafer-scale physics modeling'
+    title: 'MS-CLS: An effective partitioning and placement metaheuristic for wafer-scale physics modeling'
     year: '2023'
   L5R-NKAAAAAJ:9yKSN-GCB0IC:
-    citations: 14
+    citations: 13
     title: Robust multi-agent reinforcement learning for noisy environments
     year: '2022'
   L5R-NKAAAAAJ:IjCSPb-OGe4C:
@@ -18,7 +18,7 @@ papers:
     title: 'NS4S: neighborhood search for scheduling problems via large language models'
     year: '2025'
   L5R-NKAAAAAJ:UeHWp8X0CEIC:
-    citations: 0
+    citations: 1
     title: A General Heuristic Approach for Maximum Polygon Packing (CG Challenge)
     year: '2024'
   L5R-NKAAAAAJ:W7OEmFMy1HYC:
@@ -27,7 +27,7 @@ papers:
     year: '2026'
   L5R-NKAAAAAJ:Y0pCki6q_DkC:
     citations: 3
-    title: 'PACE Solver Description: Weighting-Based Local Search Heuristic for the Hitting Set Problem'
+    title: 'Pace solver description: Weighting-based local search heuristic for the hitting set problem'
     year: '2025'
   L5R-NKAAAAAJ:YsMSGLbcyi4C:
     citations: 0
@@ -37,7 +37,3 @@ papers:
     citations: 10
     title: Multi-agent fault-tolerant reinforcement learning with noisy environments
     year: '2020'
-  L5R-NKAAAAAJ:zYLM7Y9cAGgC:
-    citations: 0
-    title: A General Heuristic Approach for Maximum Polygon Packing
-    year: Unknown Year
