@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/people/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-华中科技大学计算机学院博士研究生毕业申请全流程",
+        
+          title: "华中科技大学计算机学院博士研究生毕业申请全流程",
+        
+        description: "从预答辩、论文查重与盲审、正式答辩到材料提交和院校评审的完整流程与材料清单。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hust-cs-phd-graduation-guide/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
