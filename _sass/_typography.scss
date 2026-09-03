@@ -67,6 +67,11 @@ blockquote {
     margin-bottom: 0;
   }
 
+  &.block-note {
+    padding: 0.75em 1em;
+    font-size: 1rem;
+  }
+
   /* Tips, warnings, and dangers blockquotes */
   &.block-tip {
     border-color: var(--global-tip-block);
