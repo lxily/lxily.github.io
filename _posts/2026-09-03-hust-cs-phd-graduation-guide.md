@@ -93,6 +93,10 @@ toc:
 - 会后整理答辩记录并发给答辩秘书，由秘书录入系统。
 - 系统流程为：**秘书录入答辩记录及结果 → 教务员审核结果**。
 
+### 2.6 预答辩时间线示例
+
+{% include figure.liquid path="assets/img/Graduate/2.预答辩时间线_Mark.png" class="img-fluid rounded" alt="研究生培养系统中的预答辩申请与审核时间线" caption="本人预答辩申请与审核记录（2026 年），点击图片可放大查看。" zoomable=true avoid_scaling=true %}
+
 ## 三、论文查重与盲审（2～6 周）
 
 ### 3.1 查重论文要求
@@ -119,6 +123,10 @@ toc:
 - 盲审一般需要 3 周至 1.5 个月，请预留足够时间。
 - 盲审期间通常没有过程信息；待所有评审意见返回后，系统才会更新结果。
 - 收到盲审结果后，需要针对评审意见逐条修改论文。
+
+### 3.5 查重与盲审时间线示例
+
+{% include figure.liquid path="assets/img/Graduate/1.盲审时间线_Mark.png" class="img-fluid rounded" alt="研究生培养系统中的论文查重、送审与结果返回时间线" caption="本人论文查重与盲审记录（2026 年），点击图片可放大查看。" zoomable=true avoid_scaling=true %}
 
 ## 四、正式答辩（1～2 周）
 
@@ -160,6 +168,10 @@ toc:
 - 会后整理答辩记录并发给答辩秘书，由秘书录入系统。
 - 系统流程为：**秘书录入答辩记录及结果 → 教务员审核结果**。
 
+### 4.5 正式答辩时间线示例
+
+{% include figure.liquid path="assets/img/Graduate/3.正式答辩时间线_Mark.png" class="img-fluid rounded" alt="研究生培养系统中的正式答辩申请与审核时间线" caption="本人正式答辩申请与审核记录（2026 年），点击图片可放大查看。" zoomable=true avoid_scaling=true %}
+
 ## 五、材料提交
 
 正式答辩结束后，先逐条对照答辩专家的意见修改论文，再完成线上申请和线下材料提交。
@@ -174,6 +186,12 @@ toc:
 4. 学位申请。
 
 本人办理时，上传的存档论文不需要包含答辩决议，具体请以当年的要求为准。
+
+下面是本人毕业申请和学位申请的系统记录，具体日期仅作为个人办理过程的参考。
+
+{% include figure.liquid path="assets/img/Graduate/4.毕业申请.png" class="img-fluid rounded" alt="研究生培养系统中的毕业申请记录" caption="本人毕业申请记录（2026 年），点击图片可放大查看。" zoomable=true avoid_scaling=true %}
+
+{% include figure.liquid path="assets/img/Graduate/5.学位申请_Mark.png" class="img-fluid rounded" alt="研究生培养系统中的学位申请与审查结果记录" caption="本人学位申请与审查结果记录（2026 年），点击图片可放大查看。" zoomable=true avoid_scaling=true %}
 
 ### 5.2 线下材料准备（以当年通知文件为准）
 
